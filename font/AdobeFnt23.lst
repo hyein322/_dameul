@@ -1,0 +1,510 @@
+%!Adobe-FontList 1.23
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GowunBatang-Bold
+FamilyName:Gowun Batang
+StyleName:Bold
+FullName:Gowun Batang Bold
+MenuName:Gowun Batang
+StyleBits:2
+FamilyNameNative:Gowun Batang
+StyleNameNative:Bold
+FullNameNative:Gowun Batang Bold
+WritingScript:Korean
+OutlineFileName:D:\★2st\Font\GowunBatang-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:8178712
+FileModTime:1715571182
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Gowun Batang
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GowunBatang-Regular
+FamilyName:Gowun Batang
+StyleName:Regular
+FullName:Gowun Batang Regular
+MenuName:Gowun Batang
+StyleBits:0
+FamilyNameNative:Gowun Batang
+StyleNameNative:Regular
+FullNameNative:Gowun Batang Regular
+WritingScript:Korean
+OutlineFileName:D:\★2st\Font\GowunBatang-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:8433296
+FileModTime:1715571208
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Gowun Batang
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:LibreBaskerville-Bold
+FamilyName:Libre Baskerville
+StyleName:Bold
+FullName:Libre Baskerville Bold
+MenuName:Libre Baskerville
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\★2st\Font\Libre_Baskerville\LibreBaskerville-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:155428
+FileModTime:1663824430
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Libre Baskerville
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:LibreBaskerville-Italic
+FamilyName:Libre Baskerville
+StyleName:Italic
+FullName:Libre Baskerville Italic
+MenuName:Libre Baskerville
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\★2st\Font\Libre_Baskerville\LibreBaskerville-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:172212
+FileModTime:1663824430
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Libre Baskerville
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:LibreBaskerville-Regular
+FamilyName:Libre Baskerville
+StyleName:Regular
+FullName:Libre Baskerville
+MenuName:Libre Baskerville
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\★2st\Font\Libre_Baskerville\LibreBaskerville-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:154676
+FileModTime:1663824430
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Libre Baskerville
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\★2st\Font\Libre_Baskerville\OFL.txt
+FileModTime:1715569062
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\★2st\Font\louis_george_cafe\License.txt
+FileModTime:1653803076
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:LouisGeorgeCafe-BoldItalic
+FamilyName:Louis George Cafe
+StyleName:Bold Italic
+FullName:Louis George Cafe Bold Italic
+MenuName:Louis George Cafe
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:D:\★2st\Font\louis_george_cafe\Louis George Cafe Bold Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:41332
+FileModTime:1653801864
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Louis George Cafe Bold Ital
+NameArray:0,Win,1,Louis George Cafe
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:LouisGeorgeCafe-Bold
+FamilyName:Louis George Cafe
+StyleName:Bold
+FullName:Louis George Cafe Bold
+MenuName:Louis George Cafe
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\★2st\Font\louis_george_cafe\Louis George Cafe Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:38624
+FileModTime:1653801534
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Louis George Cafe Bold
+NameArray:0,Win,1,Louis George Cafe
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:LouisGeorgeCafe-Italic
+FamilyName:Louis George Cafe
+StyleName:Italic
+FullName:Louis George Cafe Italic
+MenuName:Louis George Cafe
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\★2st\Font\louis_george_cafe\Louis George Cafe Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:39832
+FileModTime:1653727226
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Louis George Cafe Italic
+NameArray:0,Win,1,Louis George Cafe
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:LouisGeorgeCafeLight-
+FamilyName:Louis George Cafe Light
+StyleName:Italic
+FullName:Louis George Cafe Light Italic
+MenuName:Louis George Cafe Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\★2st\Font\louis_george_cafe\Louis George Cafe Light Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:39256
+FileModTime:1653671340
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Louis George Cafe Light Ita
+NameArray:0,Win,1,Louis George Cafe Light
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:LouisGeorgeCafeLight-@
+FamilyName:Louis George Cafe Light
+StyleName:Regular
+FullName:Louis George Cafe Light
+MenuName:Louis George Cafe Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\★2st\Font\louis_george_cafe\Louis George Cafe Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:37440
+FileModTime:1653718202
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Louis George Cafe Light
+NameArray:0,Win,1,Louis George Cafe Light
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:LouisGeorgeCafe
+FamilyName:Louis George Cafe
+StyleName:Regular
+FullName:Louis George Cafe
+MenuName:Louis George Cafe
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\★2st\Font\louis_george_cafe\Louis George Cafe.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:37136
+FileModTime:1653727210
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Louis George Cafe
+NameArray:0,Win,1,Louis George Cafe
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\★2st\Font\louis_george_cafe\Louis George Café.png
+FileModTime:1653907382
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-Black
+FamilyName:Noto Sans KR
+StyleName:Black
+FullName:Noto Sans KR Black
+MenuName:Noto Sans KR Black
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:Black
+FullNameNative:Noto Sans KR Black
+WritingScript:Korean
+OutlineFileName:D:\★2st\Font\noto_sans\NotoSansKR-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6188800
+FileModTime:1692316384
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR Black
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-Bold
+FamilyName:Noto Sans KR
+StyleName:Bold
+FullName:Noto Sans KR Bold
+MenuName:Noto Sans KR
+StyleBits:2
+FamilyNameNative:Noto Sans KR
+StyleNameNative:Bold
+FullNameNative:Noto Sans KR Bold
+WritingScript:Korean
+OutlineFileName:D:\★2st\Font\noto_sans\NotoSansKR-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6190824
+FileModTime:1692316384
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-ExtraBold
+FamilyName:Noto Sans KR
+StyleName:ExtraBold
+FullName:Noto Sans KR ExtraBold
+MenuName:Noto Sans KR ExtraBold
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:ExtraBold
+FullNameNative:Noto Sans KR ExtraBold
+WritingScript:Korean
+OutlineFileName:D:\★2st\Font\noto_sans\NotoSansKR-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6189864
+FileModTime:1692316384
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR ExtraBold
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-ExtraLight
+FamilyName:Noto Sans KR
+StyleName:ExtraLight
+FullName:Noto Sans KR ExtraLight
+MenuName:Noto Sans KR ExtraLight
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:ExtraLight
+FullNameNative:Noto Sans KR ExtraLight
+WritingScript:Korean
+OutlineFileName:D:\★2st\Font\noto_sans\NotoSansKR-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6201060
+FileModTime:1692316384
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR ExtraLight
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-Light
+FamilyName:Noto Sans KR
+StyleName:Light
+FullName:Noto Sans KR Light
+MenuName:Noto Sans KR Light
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:Light
+FullNameNative:Noto Sans KR Light
+WritingScript:Korean
+OutlineFileName:D:\★2st\Font\noto_sans\NotoSansKR-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6198972
+FileModTime:1692316384
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR Light
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-Medium
+FamilyName:Noto Sans KR
+StyleName:Medium
+FullName:Noto Sans KR Medium
+MenuName:Noto Sans KR Medium
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:Medium
+FullNameNative:Noto Sans KR Medium
+WritingScript:Korean
+OutlineFileName:D:\★2st\Font\noto_sans\NotoSansKR-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6190280
+FileModTime:1692316384
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR Medium
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-Regular
+FamilyName:Noto Sans KR
+StyleName:Regular
+FullName:Noto Sans KR Regular
+MenuName:Noto Sans KR
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:Regular
+FullNameNative:Noto Sans KR Regular
+WritingScript:Korean
+OutlineFileName:D:\★2st\Font\noto_sans\NotoSansKR-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6192764
+FileModTime:1692316384
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-SemiBold
+FamilyName:Noto Sans KR
+StyleName:SemiBold
+FullName:Noto Sans KR SemiBold
+MenuName:Noto Sans KR SemiBold
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:SemiBold
+FullNameNative:Noto Sans KR SemiBold
+WritingScript:Korean
+OutlineFileName:D:\★2st\Font\noto_sans\NotoSansKR-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6188924
+FileModTime:1692316384
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR SemiBold
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-Thin
+FamilyName:Noto Sans KR
+StyleName:Thin
+FullName:Noto Sans KR Thin
+MenuName:Noto Sans KR Thin
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:Thin
+FullNameNative:Noto Sans KR Thin
+WritingScript:Korean
+OutlineFileName:D:\★2st\Font\noto_sans\NotoSansKR-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6201276
+FileModTime:1692316384
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR Thin
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+

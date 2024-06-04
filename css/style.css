@@ -1,0 +1,961 @@
+@charset "utf-8";
+/*font-family: "Libre Baskerville", serif;*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+
+body {
+    color: #161616;
+    font-size: 17px;
+    line-height: 1.2;
+    font-family: "Noto Sans KR", sans-serif;
+    background-color: #eeebe3;
+}
+
+
+/*header*/
+header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s;
+    z-index: 99;
+}
+
+.logo {
+    width: 99px;
+    height: 41px;
+    background: url(../images/logo01.png) center center no-repeat;
+}
+
+.active {
+    background: url(../images/logo02.png) center center no-repeat;
+}
+
+.header_inner {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.header_fixed {
+    background-color: rgba(169, 165, 155, 0.8);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.menu_box {
+    display: flex;
+}
+
+.gnb {
+    display: flex;
+    padding-right: 100px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon li {
+    padding-right: 30px;
+    justify-content: space-between;
+}
+
+.icon input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: url(../images/icon_serch.png) no-repeat left center;
+    padding: 8px 0;
+    padding-left: 25px;
+    outline: none;
+
+}
+
+.icon input::placeholder {
+    color: #fff;
+    font-weight: 100;
+}
+
+.gnb>li {
+    font-size: 18px;
+    color: #fff;
+    font-family: "Libre Baskerville", serif;
+    padding: 0 20px;
+    padding-top: 10px;
+}
+
+
+
+/***************햄버거*/
+/*햄버거 버튼모양*/
+.slide-open {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 99;
+    display: none;
+}
+
+.burgur {
+    right: 15px;
+    top: 23px;
+    position: fixed;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+}
+
+.burgur .top-line {
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    bottom: -5px;
+    content: '';
+    position: absolute;
+    right: 0;
+    -webkit-transition: -webkit-transform .3s;
+    transition: transform .3s;
+
+}
+
+.burgur .bot-line {
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    top: -5px;
+    content: '';
+    position: absolute;
+    right: 0;
+    -webkit-transition: -webkit-transform .3s;
+    transition: transform .3s;
+}
+
+.burgur.on {
+    width: 0;
+}
+
+.burgur.on .bot-line {
+    -webkit-transform: translateY(5px) rotate(135deg);
+    transform: translateY(5px) rotate(135deg);
+}
+
+.burgur.on .top-line {
+    -webkit-transform: translateY(-5px) rotate(-135deg);
+    transform: translateY(-5px) rotate(-135deg);
+}
+
+/*메뉴부분 모양*/
+.slide {
+    padding-top: 50px;
+    width: 50%;
+    /*이 너비에 따라 보이는 부분이 변화함*/
+    position: fixed;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: right .3s;
+    -moz-transition: right .3s;
+    -ms-transition: right .3s;
+    -o-transition: right .3s;
+    transition: right .3s;
+    background-color: #cccccc;
+    z-index: 9;
+}
+
+.slide-title {
+    width: 100%;
+    height: 100px;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.slide.on {
+    right: 0;
+}
+
+.slide ul li {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+/*필요스타일끝*/
+
+
+
+
+/*main_banner*/
+
+#main_banner {
+    padding-bottom: 250px;
+}
+
+#main_banner .back_img {
+    background: url(../images/main_banner.jpg) left center no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title_box {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.title_box h1 {
+    font-size: 100px;
+    color: #fff;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-weight: 400;
+}
+
+.title_box p {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.banner_btn a {
+    display: inline-block;
+    border: #c5542d 1px solid;
+    color: #c5542d;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    padding: 5px 20px;
+    font-size: 19px;
+    position: relative;
+    transition: all 0.3s;
+    overflow: hidden;
+}
+
+.banner_btn a span {
+    position: relative;
+}
+
+.banner_btn {
+    padding-top: 10px;
+}
+
+.banner_btn a::before {
+    content: "";
+    background-color: #c5542d;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: all 0.3s;
+}
+
+.banner_btn:hover a::before {
+    left: 0;
+}
+
+.banner_btn:hover a {
+    color: #fff;
+}
+
+
+/*brand*/
+#brand {
+    margin-bottom: 200px;
+
+}
+
+.title {
+    font-family: "Libre Baskerville", serif;
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    color: #313131;
+
+}
+
+#brand .sub_title {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+#brand .title {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+#brand .brad_bg {
+    background: url(../images/brand_banner.jpg) no-repeat left 10%;
+    width: 50%;
+    height: 700px;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+#brand .container {
+    display: flex;
+}
+
+.container .text {
+    max-width: 404px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+/*product*/
+#product .btn {
+    text-align: center;
+}
+
+.btn a {
+    display: inline-block;
+    background-color: #d9c9aa;
+    font-family: "Libre Baskerville", serif;
+    font-size: 17px;
+    color: #fff;
+    padding: 10px 20px;
+    transition: all 0.3s;
+
+}
+
+.btn a:hover {
+    background-color: #fff;
+    color: #d9c9aa;
+}
+
+
+#product {
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+#product .title {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#product .list {
+    margin-bottom: 50px;
+}
+
+#product .list ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#product .list img {
+    width: 100%;
+    padding-bottom: 10px;
+    max-width: 250px;
+}
+
+#product .list ul li {
+    width: 24%;
+}
+
+#product .list h4 {
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+#product .list p {
+    font-size: 15px;
+}
+
+#product .list span {
+    text-decoration: line-through;
+}
+
+
+/*promotion*/
+#promotion {
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+#promotion .cotainer {
+    display: flex;
+    padding: 0 120px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+
+}
+
+#promotion .cotainer .img {
+    width: 503px;
+}
+
+#promotion .cotainer .img img {
+    width: 100%;
+}
+
+#promotion .cotainer .text {
+    width: 520px;
+}
+
+
+#promotion .cotainer .text .middle {
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+#promotion .cotainer .text p {
+    font-size: 17px;
+}
+
+#promotion .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#promotion .cotainer:nth-child(3) .img {
+    order: 2;
+}
+
+#promotion .cotainer:nth-child(3) .text {
+    order: 1;
+}
+
+
+/*magazin*/
+#magazin {
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+#magazin::after {
+    content: "";
+    display: block;
+    padding-left: 50px;
+}
+
+#magazin::before {
+    content: "";
+    display: block;
+    padding-left: 50px;
+}
+
+#magazin .m_title_box {
+    background-color: #595643;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+#magazin .m_title_box .title {
+    color: #fff;
+}
+
+#magazin .text p {
+    padding-bottom: 10px;
+}
+
+#magazin .text {
+    padding-left: 20px;
+}
+
+#magazin .title {
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+#magazin .contents {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+
+#magazin ul li:nth-child(2) {
+    font-size: 28px;
+    font-weight: 500x;
+}
+
+.contents img {
+    width: 100%;
+}
+
+.mag01 {
+    width: 50%;
+}
+
+.mag02 {
+    width: 50%;
+}
+
+/*insta*/
+#insta {
+    background: url(../images/insta_bg.png) left bottom no-repeat;
+    padding-bottom: 70px;
+    margin-bottom: 130px;
+}
+
+#insta .title {
+    text-align: center;
+}
+
+.insta_inner {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.insta_inner img {
+    width: 100%;
+}
+
+.sns1 {
+    width: 720px;
+}
+
+.insta_inner .right_box {
+    display: flex;
+    width: 595px;
+    justify-content: space-around;
+}
+
+.right_box li {
+    padding-bottom: 10px;
+}
+
+.right_box li img {
+    width: 100%;
+}
+
+/*store*/
+#store {
+    margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******** 테블릿 미디어 쿼리*/
+@media(min-width:750px) and (max-width:1319px) {
+    header {
+        width: 100%;
+        background-color: rgba(169, 165, 155, 0.8);
+    }
+
+
+    .slide-open {
+        display: block;
+    }
+
+    .menu_box {
+        display: none;
+    }
+
+    .gnb {
+        padding-right: 0;
+    }
+
+    .title_box {
+        padding-left: 20px;
+    }
+
+    .title {
+        padding-bottom: 10px;
+    }
+
+    #brand .brad_bg {
+        background: url(../images/barnad_story.jpg) no-repeat left 10%;
+        width: 53%;
+        height: 700px;
+        background-size: cover;
+    }
+
+
+    #brand .container {
+        display: flex;
+    }
+
+    #brand .text p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .container .text {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    #product .list ul li {
+        width: 50%;
+        padding-bottom: 20px;
+    }
+
+    #promotion {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    #promotion .cotainer .img img {
+        width: 100%;
+    }
+
+    #promotion .title {
+        padding-bottom: 10px;
+    }
+
+
+    #promotion .cotainer {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 120px;
+        padding: 50px 20px;
+    }
+
+    #promotion .cotainer .img {
+        width: 100%;
+    }
+
+    #promotion .cotainer .text {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+
+
+    #promotion .cotainer:nth-child(3) .img {
+        order: 1;
+    }
+
+    #promotion .cotainer:nth-child(3) .text {
+        order: 2;
+    }
+
+    #magazin::after {
+        display: none;
+    }
+
+    #magazin::before {
+        display: none;
+    }
+
+    #magazin .contents {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .mag01 {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .mag02 {
+        width: 100%;
+    }
+
+    #magazin .m_title_box {
+        background-color: #eeebe3;
+        padding: 10px 0;
+        color: #161616;
+        text-align: center;
+    }
+
+    #magazin .m_title_box .title {
+        color: #313131;
+    }
+
+    .insta_inner {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .insta_inner img {
+        min-width: 100%;
+    }
+
+    .sns1 {
+        width: 595px;
+        padding-bottom: 10px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******모바일 미디어쿼리*/
+@media (max-width:749px) {
+    header {
+        width: 100%;
+        background-color: rgba(169, 165, 155, 0.8);
+    }
+
+
+    .slide-open {
+        display: block;
+    }
+
+    .menu_box {
+        display: none;
+    }
+
+    .title_box {
+        padding-left: 50px;
+    }
+
+    .title {
+        padding-bottom: 10px;
+    }
+
+    .title_box h1 {
+        font-size: 50px;
+
+    }
+
+    .title_box p {
+        font-size: 30px;
+    }
+
+    .banner_btn a {
+        font-size: 20px;
+    }
+
+    #brand {
+        margin-bottom: 100px;
+    }
+
+    #brand .text p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+
+    #brand .brad_bg {
+        background: url(../images/barnad_story.jpg) no-repeat left 10%;
+        width: 100%;
+        height: 580px;
+        background-size: cover;
+
+    }
+
+    #brand .container {
+        display: block;
+    }
+
+    #brand .sub_title {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        padding: 10px 0;
+    }
+
+
+    #product .list ul li {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+
+    #promotion .cotainer img {
+        width: 500px;
+    }
+
+    #promotion {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 100px;
+
+    }
+
+    #promotion .title {
+        padding-bottom: 10px;
+
+    }
+
+    #promotion .cotainer {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 120px;
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+
+    #promotion .cotainer .img {
+        width: 100%;
+    }
+
+    #promotion .cotainer img {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    #promotion .cotainer .text {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    #promotion .cotainer .text .middle {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    #promotion .cotainer .text p {
+        font-size: 15px;
+    }
+
+    #promotion .cotainer:nth-child(3) .img {
+        order: 1;
+    }
+
+    #promotion .cotainer:nth-child(3) .text {
+        order: 2;
+    }
+
+    #magazin {
+        justify-content: center;
+    }
+
+    #magazin::after {
+        display: none;
+    }
+
+    #magazin::before {
+        display: none;
+    }
+
+    #magazin .contents {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .mag01 {
+        width: 98%;
+        padding-bottom: 30px;
+
+    }
+
+    .mag02 {
+        width: 98%;
+    }
+
+    #magazin .m_title_box {
+        background-color: #eeebe3;
+        padding: 10px 0;
+        color: #161616;
+        text-align: center;
+    }
+
+    #magazin .m_title_box .title {
+        color: #313131;
+    }
+
+    #magazin .text {
+        padding-left: 0;
+    }
+
+    #product .list ul li:last-child {
+        padding-bottom: 5px;
+    }
+
+    .insta_inner {
+        flex-wrap: wrap;
+    }
+
+    .sns1 {
+        padding: 0 5px;
+        padding-bottom: 10px;
+
+    }
+
+    .right_box li {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
